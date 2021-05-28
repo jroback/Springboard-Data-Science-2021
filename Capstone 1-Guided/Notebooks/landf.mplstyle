@@ -1,0 +1,76 @@
+# A branded matplotlib style file for Landor & Fitch
+# Dark mode to work with company powerpoint template
+
+# Font
+font.family:        Arial
+font.size:          11.0
+
+# TEXT
+text.color:         white           # Affects title & legend
+
+# AXES
+axes.facecolor:     black           # background color of plot
+axes.edgecolor:     white           # axes edge color
+axes.linewidth:     1.5             # edge linewidth    
+axes.grid:          False           # display grid or not
+axes.titlesize:     24              # fontsize of the axes title
+axes.labelcolor:    white           # color of the x and y labels
+axes.labelsize:     large           # fontsize of the x and y labels
+axes.labelweight:   normal          # weight of the x and y labels
+axes.labelpad:      10.0            # space between label and axis
+axes.spines.left:   True            # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+axes.prop_cycle:   cycler('color', ['42cff3','fed100','c301f1','2ef8be','ff0040','016eff'])   # L&F color palette
+
+# TICKS
+#xtick.top:         False           # draw ticks on the top side
+#xtick.bottom:      True            # draw ticks on the bottom side
+#xtick.labeltop:    False           # draw label on the top
+#xtick.labelbottom: True            # draw label on the bottom
+#xtick.major.size:  3.5             # major tick size in points
+#xtick.minor.size:  2               # minor tick size in points
+xtick.major.width:  2               # major tick width in points
+xtick.minor.width:  1               # minor tick width in points
+xtick.color:        white           # color of the tick labels
+xtick.labelsize:    medium          # fontsize of the tick labels
+xtick.direction:    in              # direction: {in, out, inout}
+
+#ytick.left:        True            # draw ticks on the left side
+#ytick.right:       False           # draw ticks on the right side
+#ytick.labelleft:   True            # draw tick labels on the left side
+#ytick.labelright:  False           # draw tick labels on the right side
+#ytick.major.size:  3.5             # major tick size in points
+#ytick.minor.size:  2               # minor tick size in points
+ytick.major.width:  2               # major tick width in points
+ytick.minor.width:  1               # minor tick width in points
+ytick.color:        white           # color of the tick labels
+ytick.labelsize:    medium          # fontsize of the tick labels
+ytick.direction:    in              # direction: {in, out, inout}
+
+# GRID
+# To use these, axes.grid must be set to True
+grid.color:         white           # grid color
+grid.linestyle:     -               # solid
+grid.linewidth:     0.8             # in points
+grid.alpha:         0.5             # transparency, between 0.0 and 1.0
+
+# LEGEND
+legend.frameon:     True            # if True, draw the legend on a background patch
+
+# FIGURE
+figure.figsize:     14, 8           # figure size in inches
+#figure.dpi:        100             # figure dots per inch
+figure.facecolor:   black           # figure facecolor
+figure.autolayout:  True            # When True, automatically adjust subplot
+                                    # parameters to make the plot fit the figure
+                                    # using `tight_layout`
+# SAVING FIGURE
+savefig.dpi:        300             # figure dots per inch or 'figure'
+savefig.facecolor:  black           # figure facecolor when saving
+savefig.bbox:       tight           # {tight, standard}
+savefig.pad_inches: 0.5             # Padding to be used when bbox is set to 'tight'
+
+# LINES
+lines.linewidth:    2               # line width in points
