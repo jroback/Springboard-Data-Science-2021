@@ -1,4 +1,7 @@
 data/
 raw_data/
+not_monet/
+classes/
+fonts/
 *.xls
 *.csv
