@@ -3,5 +3,9 @@ raw_data/
 not_monet/
 classes/
 fonts/
+fonts_A-G/
+fonts_H-M/
+fonts_N-S/
+fonts_T-Z/
 *.xls
 *.csv
